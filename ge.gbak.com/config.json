@@ -1,0 +1,17 @@
+{
+  "title": "Gbank",
+  "elements": [
+    {
+      "type": "text",
+      "text": "Добро пожаловать в подвал.",
+      "color": "red"
+    },
+    {
+      "type": "button",
+      "text": "Йоу",
+      "action": "navigate",
+      "target": "Garmastopol.com",
+      "color": "white"
+    }
+  ]
+}
