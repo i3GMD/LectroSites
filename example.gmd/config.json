@@ -1,0 +1,17 @@
+{
+  "title": "Главная страница",
+  "elements": [
+    {
+      "type": "text",
+      "text": "Вы на главной странице.",
+      "color": "magenta"
+    },
+    {
+      "type": "button",
+      "text": "Перейти к сайту 2",
+      "action": "navigate",
+      "target": "site2.com",
+      "color": "magenta"
+    }
+  ]
+}

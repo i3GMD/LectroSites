@@ -1,0 +1,18 @@
+{
+    "title": "i3 technologies",
+    "elements": [
+      {
+        "type": "text",
+        "text": "Добрый вечер. Вы на главной странице i3 technologies",
+        "color": ""
+      },
+      {
+        "type": "button",
+        "text": "Перейти к контакты i3 technologies",
+        "action": "navigate",
+        "target": "i3tech_contact.gmd",
+        "color": "BLUE"
+        
+      }
+    ]
+  }
