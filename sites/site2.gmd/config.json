@@ -1,0 +1,17 @@
+{
+    "title": "Второй сайт",
+    "elements": [
+      {
+        "type": "text",
+        "text": "Добро пожаловать на второй сайт!",
+        "color": "magenta"
+      },
+      {
+        "type": "button",
+        "text": "Вернуться на главную",
+        "action": "navigate",
+        "target": "example.com",
+        "color": "magenta"
+      }
+    ]
+  }
