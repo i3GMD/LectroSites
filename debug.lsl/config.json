@@ -1,0 +1,21 @@
+{
+    "title": "Страница с кодом",
+    "elements": [
+      {
+        "type": "text",
+        "text": "debug",
+        "color": "cyan"
+      },
+      {
+        "type": "code",
+        "code": "import os\nimport sys\nprint('os.getcwd():', os.getcwd())\nprint('sys.argv[0]:', sys.argv[0]) "
+      },
+      {
+        "type": "button",
+        "text": "Назад",
+        "action": "navigate",
+        "target": "example.gmd",
+        "color": "green"
+      }
+    ]
+  }

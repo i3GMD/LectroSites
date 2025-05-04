@@ -1,0 +1,21 @@
+{
+  "title": "Поиск сайтов",
+  "elements": [
+    {
+      "type": "text",
+      "text": "Введите текст для поиска сайтов:",
+      "color": "cyan"
+    },
+    {
+      "type": "code",
+      "code": "import os\n\n# Путь к папке sites (в той же директории, где запускается GMD_browser)\nsites_path = os.path.join(os.getcwd(), 'sites')\n\n# Получаем ввод пользователя\nsearch_text = input('Введите текст для поиска: ').strip().lower()\n\n# Проверяем существование папки sites\nif not os.path.exists(sites_path):\n    print('❌ Папка sites не найдена')\nelse:\n    print('\\nНайденные сайты:')\n    for item in os.listdir(sites_path):\n        full_path = os.path.join(sites_path, item)\n        if os.path.isdir(full_path) and search_text in item.lower() and item != 'searcher_site':\n            print(f' - {item}')"
+    },
+    {
+      "type": "button",
+      "text": "Продолжить поиск",
+      "action": "navigate",
+      "target": "searcher.lsl",
+      "color": "green"
+    }
+  ]
+}

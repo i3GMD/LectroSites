@@ -1,0 +1,21 @@
+{
+    "title": "Страница с кодом",
+    "elements": [
+      {
+        "type": "text",
+        "text": "Введите свой возраст, чтобы проверить статус:",
+        "color": "cyan"
+      },
+      {
+        "type": "code",
+        "code": "a = int(input('Введите свой возраст: '))\nif a >= 18:\n    print('Вы совершеннолетний')\nelse:\n    print('Вы еще ребенок')"
+      },
+      {
+        "type": "button",
+        "text": "Назад",
+        "action": "navigate",
+        "target": "example.gmd",
+        "color": "green"
+      }
+    ]
+  }
