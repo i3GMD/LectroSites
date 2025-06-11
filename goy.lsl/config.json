@@ -1,0 +1,21 @@
+{
+    "title": "Страница с кодом",
+    "elements": [
+      {
+        "type": "text",
+        "text": "debug",
+        "color": "cyan"
+      },
+      {
+        "type": "code",
+        "code": "encrypted55EBkFi68tPuSPPxbsaDYsMfYqK6M6J7dOBMZtLA5u3i+c9rMOZiFaaxHIqN/w1QcgxGkxZiGNX6rFLSFUQjtWYAD6dtygzPdE4N8kMCKNr5X7jTX/lJXFNUb0W+83igXGa0BJ+X3El0PNF6zg49DfehdfrJyLoA76+pkJw9+tq3Du/va7YuFVOZ2cRVDlB3yWGnp+23iPesLMIy7Gdfub67M+AUrZcJJYzyBTfG4PV1N/K7bSTbEhU4o9x3FliD7UGbb9f2BAEwNqxr10OvIuToAePI7DHhwM3sqKBtsmVsKaHzX874jVYR3hT3XbiULu7TYD6rkOGPPyLKtoeozzpZN5Jva/dw8zggS8HsMo008clperyiDZ/645qGlT8QWCQFfVsOxRMpFsXvg8CXCYV1nGjCxXireZurmlb2FMVwPZnza+NE4k/sLJaGRGHFCp3EmkXEOw7HbciTz1HA7LLFc5mnrE+OVtaxbJGSIea1vHliUSLk/IWVSbPe95HKW7UZzQUpAzH3bUravq8VcIFOBKEQCDHGxEhsTir/g57iMyKYCwS7aEy0xxjWySMOdKzrsYdpDqj+ANq5ND8goFklVyiyoYJHiTdFeIMJQiRzvE5n5omG1J2PaDSaVxDlBjw="
+      },
+      {
+        "type": "button",
+        "text": "Назад",
+        "action": "navigate",
+        "target": "gmd.lsl",
+        "color": "green"
+      }
+    ]
+  }
