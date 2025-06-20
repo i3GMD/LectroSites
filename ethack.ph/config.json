@@ -1,0 +1,38 @@
+{
+  "title": "ETHAC",
+  "elements": [
+    {
+      "type": "text",
+      "text": "Здесь вы можете найти информацию о некоторых аспектах безопасности и этичном хакинге",
+      "color": "green"
+    },
+    {
+      "type": "button",
+      "text": "как работает VPN",
+      "action": "navigate",
+      "target": "How_Vpn_Works(ethac).ph",
+      "color": "green"
+    },
+    {
+      "type": "button",
+      "text": "репозиторий с прототипами вирусов на python",
+      "action": "navigate",
+      "target": "Github_mallware_rep(ethac).ph",
+      "color": "green"
+    },
+    {
+      "type": "button",
+      "text": "Статьи о кибербезопасности и этичном хакинге",
+      "action": "navigate",
+      "target": "Habr_pentest(ethac).ph",
+      "color": "green"
+    },
+    {
+      "type": "button",
+      "text": "Видеокурс по Этичному хакингу",
+      "action": "navigate",
+      "target": "Youtube_etic_hack_lessons(ethac).ph",
+      "color": "green"
+    }
+  ]
+}

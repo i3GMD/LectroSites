@@ -1,0 +1,25 @@
+{
+  "title": "репозиторий с прототипами вирусов на python(внимание! существует только для ознакомления, а не для нарушения закона!)",
+  "elements": [
+  
+    {
+      "type": "text",
+      "text": "Крупнейший бесплатный видеокурс по Этичному Хакингу. Существует в целях ознакомления, не нарушайте закон! ",
+      "color": "green"
+    },
+
+    {
+      "type": "text",
+      "text": "https://www.youtube.com/playlist?list=PLrNhNTukZ_nF4GlvuniZJGC5cdfYDI0z7",
+      "color": "red"
+    },
+
+    {
+      "type": "button",
+      "text": "вернуться назад",
+      "action": "navigate",
+      "target": "ethack.ph",
+      "color": "red"
+    }
+  ]
+}

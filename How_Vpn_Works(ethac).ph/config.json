@@ -1,0 +1,47 @@
+{
+  "title": "Как работает VPN тунель?",
+  "elements": [
+    {
+      "type": "text",
+      "text": "> Ты отправляешь запрос — открыть сайт.",
+      "color": "green"
+    },
+    {
+      "type": "text",
+      "text": "> VPN-клиент шифрует данные.",
+      "color": "green"
+    },
+    {
+      "type": "text",
+      "text": "> Запрос идёт по защищённому туннелю.",
+      "color": "green"
+    },
+    {
+      "type": "text",
+      "text": "> VPN-сервер расшифровывает и отправляет дальше.",
+      "color": "green"
+    },
+    {
+      "type": "text",
+      "text": "> Веб-сервер отвечает.",
+      "color": "green"
+    },
+    {
+      "type": "text",
+      "text": "> Ответ шифруется и возвращается к тебе — всё по-прежнему защищено.",
+      "color": "green"
+    },
+    {
+      "type": "text",
+      "text": "Информация взята со стороннего источника тегеламма --> @cybersecinform ",
+      "color": "green"
+    },
+    {
+      "type": "button",
+      "text": "вернуться назад",
+      "action": "navigate",
+      "target": "ethack.ph",
+      "color": "red"
+    }
+  ]
+}
